@@ -9,9 +9,6 @@ struct qz{
 	string o3;
 	int a;
 	};
-int storeQuiz(){
-	
-	}
 
 
 int main(int argc, char *argv[])
@@ -25,6 +22,7 @@ int main(int argc, char *argv[])
 		qno=stoi(line);
 		
 		qz quiz[qno];
+	//this here is a bit of a problem for now, since arrays only takes const value
 		
 		
 		for(int i=0;i<qno;i++){
