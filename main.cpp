@@ -24,7 +24,8 @@ int main(int argc, char* argv[]){
 	int qno;
 	getline(mFile, line);//gets the first line from "test.txt file"
 	qno = stoi(line);//converts the first line of "test.txt" file to int and stores in qno variable
-
+     
+      //qz quiz[qno];this is what i want to use.
 	qz quiz[100];//making quiz variable of qz structure that I made above
 //also, I coudn't find a way to declare the quiz structure array so it's gonna be pre-declared for the time being untill I get more knowledge about this
 	
